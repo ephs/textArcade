@@ -17,6 +17,7 @@ int main() {
 
 	printf("\n\nWelcome to the Text Arcade!\nThis is a computer program that was written in C by members of the Programming Club at EPHS\n");
 	
+start:
 	do {
 		printf("\n\nSelect a game to play from the following list:\n");
 
@@ -37,6 +38,7 @@ int main() {
 			//printf("Tic Tac Toe selected\n");
 			break;
 	}
+	goto start;
 
 
 	return 0;

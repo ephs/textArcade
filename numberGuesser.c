@@ -51,14 +51,14 @@ start:
 	if (lives >= 1)
 		printf("You Win!\n");
 	else {
-		printf("You Lose! The correct number was %d. Would you like to try again? (y/n)\n", randNum);
-		while ((c = getchar()) != 'y' && c != 'n')
-			;
-		if (c == 'y') {
-			goto start;
-		}
-
+		printf("You Lose! The correct number was %d.\n", randNum);
 	}
+
+	printf("Would you like to try again? (y/n)\n");
+	while ((c = getchar()) != 'y' && c != 'n')
+			;
+	if (c == 'y')
+		goto start;
 
 }//end numberGuesser()
 

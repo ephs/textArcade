@@ -1,5 +1,5 @@
 To compile: 
-gcc textArcade.c -o textArcade
+gcc main.c -o main
 
 To run:
-./textArcade
+./main
