@@ -4,7 +4,7 @@
 //game c files
 #include "numberGuesser.c"
 
-char *gameNames[] = {"Number Guesser"};
+char *gameNames[] = {"Number Guesser - by Avery"};
 int numGames = sizeof(gameNames) / sizeof(gameNames[0]);
 int MAXINPUT = 1000;
 
