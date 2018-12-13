@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 //game c files
-#include "numberGuesser.c"
-#include "sl.c"
+#include "games/numberGuesser.c"
+#include "games/sl.c"
 
 char *gameNames[] = {"Number Guesser - by Avery", "SL - added by Erik Duxstad"};
 int numGames = sizeof(gameNames) / sizeof(gameNames[0]);
