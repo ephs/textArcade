@@ -3,8 +3,9 @@
 
 //game c files
 #include "numberGuesser.c"
+#include "sl.c"
 
-char *gameNames[] = {"Number Guesser - by Avery"};
+char *gameNames[] = {"Number Guesser - by Avery", "SL - added by Erik Duxstad"};
 int numGames = sizeof(gameNames) / sizeof(gameNames[0]);
 int MAXINPUT = 1000;
 
@@ -35,7 +36,7 @@ start:
 			numberGuesser();
 			break;
 		case 2:
-			//printf("Tic Tac Toe selected\n");
+			sl();
 			break;
 	}
 	goto start;

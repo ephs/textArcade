@@ -1,5 +1,5 @@
 To compile: 
-gcc main.c -o main
+`gcc main.c -o main -lncurses`
 
 To run:
-./main
+`./main`
